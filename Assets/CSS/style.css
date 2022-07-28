@@ -18,4 +18,31 @@ body {
     padding: .5em;
     background-color: aqua;
     color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#calc h3 {
+    font-size: .8em;
+    font-weight: 300;
+    color: #666;
+}
+
+#operations {
+    text-align: right;
+}
+
+#previous-operation {
+    color: #777;
+    padding: .2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+
+#current-operation {
+    min-height: 1.6em;
+    font-size: 3em;
+    font-weight: 700;
+    padding: .2em;
+    overflow-wrap: break-word;
 }
